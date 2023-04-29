@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+ .cell {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      font-size: 50px;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+    }
