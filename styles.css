@@ -1,10 +1,20 @@
 /*  your css code here. If applicable */
- .cell {
-      border: 1px solid black;
-      width: 100px;
-      height: 100px;
-      font-size: 50px;
-      text-align: center;
-      vertical-align: middle;
-      cursor: pointer;
-    }
+ .container {
+        text-align: center;
+      }
+      .board {
+        display: inline-block;
+      }
+      .board .cell {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        font-size: 40px;
+        line-height: 100px;
+        cursor: pointer;
+      }
+      .message {
+        margin-top: 20px;
+      }
